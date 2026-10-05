@@ -2,8 +2,8 @@ import streamlit as st
 
 st.set_page_config(page_title="課程回饋表單", page_icon="📋")
 st.title("📋 課程回饋表單")
-st.write("請填寫以下資料，完成后按下送出。")
-st.caption("本練習僅顯示填寫結果，資料不会保存到資料庫。")
+st.write("請填寫以下資料，完成後按下送出。")
+st.caption("本練習僅顯示填寫結果，資料不會保存到資料庫。")
 
 st.sidebar.header("基本資料")
 department = st.sidebar.selectbox("科系", ["資訊工程系", "電子工程系", "其他"])
